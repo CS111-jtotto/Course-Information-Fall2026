@@ -71,7 +71,7 @@ Your final grade is based on your graded materials (quizzes, exams) and complete
 Each category is weighted as indicated above.
 
 |grade|total score|
--------------------
+|----|------------|
 | A  | >= 93% |
 | A- | >= 90% |
 | B+ | >= 87% |
@@ -82,7 +82,6 @@ Each category is weighted as indicated above.
 | C- | >= 70% |
 | D  | >= 60% |
 | F  |  < 60% |
----------------
 
 # Submission Policy
 
