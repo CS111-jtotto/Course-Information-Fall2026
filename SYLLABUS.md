@@ -67,9 +67,11 @@ The final exam will cover similar material to the quizzes in the second half of 
 
 ## Grade Assignment
 
-Your final grade will be weighted as above.
+Your final grade is based on your graded materials (quizzes, exams) and completed assignments (labs, projects).  
+Each category is weighted as indicated above.
 
----------------
+|grade|total score|
+-------------------
 | A  | >= 93% |
 | A- | >= 90% |
 | B+ | >= 87% |
