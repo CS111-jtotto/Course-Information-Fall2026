@@ -33,7 +33,7 @@ Attending section is mandatory. Talk with me ahead of time if you need to be exc
 
 You will write programs in-class based on exercises distributed during lecture, through the local router. While you're in the classroom, you will connect to the local router, which does not have internet access. The instructor will be available to help you debug problems with your code.
 
-Lab assigments are given on Mondays; on Wednesdays, they're replaced by pair-programming. There are twelve lab assignments.
+Lab assigments are given on Mondays; on Wednesdays, they're replaced by pair-programming. There are ten lab assignments.
 
 Your lowest two lab grades will be dropped. If you need to miss a class, you'll get a zero for that lab.
 
@@ -43,6 +43,8 @@ You will write programs outside of class based on instructions available on GitH
 
 LLM use is not mandatory to complete any assignments. You will have an easier time understanding your code if you write it in small parts, which is easiest by hand.
 
+There are three projects, and you will have three weeks to complete each one.
+
 Keep in mind that quizzes and exams will require you to write code by hand, and reason about its behavior. If you write a lot of code, but cannot read it to your own satisfaction, then you will miss out on an opportunity to practice the skills we are learning.
 
 ## Quizzes (30%, graded)
@@ -51,7 +53,7 @@ Quizzes based on the previous week's material will be given in-class on Wednesda
 
 Quizzes are open notes. You may use any amount of written or printed notes or reference material. You may not use your phone or your laptop. If you want to reference the electronic course text, I recommend printing or copying out its material ahead of time.
 
-Quizzes are given on Wednesdays; on Mondays, they're replaced by a debugging match. There are twelve quizzes.
+Quizzes are given on Wednesdays; on Mondays, they're replaced by a debugging match. There are ten quizzes.
 
 Your lowest two quiz grades will be dropped. If you need to miss a class, you'll get a zero for that quiz.
 
@@ -113,69 +115,69 @@ Violations of academic honesty will result in severe penalty. A first offense wi
 
 # Schedule
 
-Week 1:
-No class on Monday.
-Wed: Review the syllabus, discuss expectations, and share our interests.
+Week 1
+Wed: Intros. Review syllabus, discuss course expectations. Install OpenJDK, Git, and Sublime Text.
 
 Week 2
-Mon: Set up a terminal with Homebrew and OpenJDK.
-Wed: Classes, methods, and statements.
+Mon: Classes, `main()` method, and `System.out.println()`. Lab assignment: Hello World.
+Wed: First quiz. Using `int` and the `=` assignment operator. Variables vs literals.
 
 Week 3
-Mon: 
-Wed: Variable assignment, integers.
+Mon: No class (Labor Day)
+Wed: The `==` equality operator, if/else statements, and variable scope. Writing comments.
 
 Week 4
-Mon: First project assigned.
-Wed:
+Mon: While loops and for loops. Return types. Lab assignment: FizzBuzz.
+Wed: Boolean operators, floating point arithmetic. How to override type checking.
 
 Week 5
-Mon:
-Wed: 
+Mon: Helper methods, try/catch blocks, `java.io.BufferedReader` usage. Lab assignment: CSV parser.
+Wed: Fixed-length arrays. String and StringBuilder. Assign first project.
 
 Week 6
-Mon:
-Wed: 
+Mon: Midterm review, no lab due.
+Wed: Midterm exam.
 
 Week 7
-Mon:
-Wed: 
+Mon: Fields, constructor methods, and the `new` keyword. Install the Processing IDE. Lab assignment: Project 1 check-in.
+Wed: Return graded midterms. No quiz. Instances vs primitives. Common ways of encountering a `NullPointerException`.
+Last week to drop.
 
 Week 8
-Mon:
-Wed: 
+Mon: Guest lecture, no lab due.
+Wed: Guest lecture, no quiz. Submit first project. 
 
 Week 9
-Mon:
-Wed: 
+Mon: No class (Fall Break)
+Wed: Review constructors and fields. `init()` and `loop()` methods. Assign second project. 
 
 Week 10
-Mon:
-Wed: 
-
+Mon: `pushStyle` and `popStyle`. Mouse input, event handlers. Lab assignment: Project 2 check-in.
+Wed: For-each loops, `java.util.ArrayList`, primitive wrappers. Strategies for reading API documentation.
 
 Week 11
-Mon:
-Wed: 
+Mon: Coordinate transformations, `pushMatrix` and `popMatrix`. Lab assignment: TBA
+Wed: Fractals and recursion. `java.util.Random` and Monte Carlo simulation.
+Last week to withdraw.
 
 Week 12
-Mon:
-Wed: 
+Mon: `java.util.Stack` and `java.util.Set`. Install IntelliJ IDEA. Lab assignment: TBA
+Wed: Library imports. Static variables and methods. No quiz. Submit second project, and assign third project.
 
 Week 13
-Mon:
-Wed: 
+Mon: Key-value pairs, `java.util.HashMap`. Project file structure. Lab assignment: Project 3 check-in.
+Wed: `extends` and the `super` constructor. Overriding methods.
 
 Week 14
-Mon:
-Wed: 
-
+Mon: `PrintWriter` and file outputs. Review file inputs. Lab assignment: TBA
+Wed: Exception handling, object polymorphism.
 
 Week 15
-Mon:
-Wed: 
+Mon: Review control flow and return types. Maps and filters. Lab assignment: TBA
+Wed: `ArrayList.sort` and the `Comparator` interface. Accumulators and reducers. Submit third project.
 
 Week 16
-Mon:
-Wed: 
+Mon: 2D arrays and nested loops. Strategies for evaluating time complexity.
+Wed: Final review.
 
+Final Exam: Friday, Dec 11th, 3 - 5pm.
