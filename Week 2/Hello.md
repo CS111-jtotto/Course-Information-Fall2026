@@ -5,6 +5,8 @@ The lab assignment today is to clone this repository (`CS111-jtotto/Course-Infor
 
 Send me your `Hello___.java` file by email by the end of today, which will count for the lab assignment.
 
+---
+
 Below are today's lecture notes. Please review them for the quiz on Wednesday, which will cover usage of the terminal and the Java compiler.
 
 Two more steps to prep for Wednesday:
