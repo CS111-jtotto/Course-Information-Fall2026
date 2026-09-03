@@ -1,6 +1,6 @@
 Here are instructions to write your first commit on the class' shared repository.
 
-Use `<up-arrow>` to retrieve commands from your terminal history.
+Use `<up-arrow>` to retrieve commands from your terminal history. This is frequently useful when a command nearly succeeds.
 
 % cd Course-Information-Fall2026
 
@@ -36,4 +36,17 @@ If your Course Information repository gets lost or broken, you can always get a 
 
 % git clone git@github.com:CS111-jtotto/Course-Information-Fall2026.git
 
-If you recently installed `git` from Homebrew or the Windows installer, you might have a terminal open with a stale PATH that can't see the `git` command. Start a fresh terminal.
+---
+
+If you don't mind losing local changes, or have them backed up somewhere, you can reset the repository in place using:
+
+% git reset --hard origin/main
+
+If the `git reset` command complains that 'origin' does not appear to be a `git` repository, try adding it:
+
+% git remote add origin git@github.com:CS111-jtotto/Course-Information-Fall2026.git
+% git reset --hard origin/main
+
+---
+
+Finally - if you recently installed `git` from Homebrew or the Windows installer, you might have a terminal open with a stale PATH that can't see the `git` command. Start a fresh terminal.
