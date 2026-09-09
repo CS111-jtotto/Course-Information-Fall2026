@@ -59,7 +59,7 @@ Displays files and subdirectories stored within a given directory.
 Duplicates files or folders from a source location to a destination.
 
 * `cp file.txt backup.txt` — Copies `file.txt` to a new file named `backup.txt`.
-* `cp -r project/project_backup/` — Recursively copies the entire `project` directory and its contents.
+* `cp -r project/ project_backup/` — Recursively copies the entire `project` directory and its contents.
 
 `rm` — **Remove (Delete) Files and Directories**
 Permanently removes files or directories from your disk without sending them to a trash bin.
