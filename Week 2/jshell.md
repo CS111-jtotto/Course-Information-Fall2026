@@ -3,3 +3,16 @@ You can practice operations like assignment, comparison, and concatenation in `j
 Within `jshell`,  type in a Java expression or statement, and press `<enter>` to evaluate it. Variable assignments will stick for the duration of the session.
 - Pressing `<control>+c` will stop execution if your statement takes too long to evaluate, such as an infinite loop.
 - Press `<control>+d` to exit back to the terminal.
+
+Some good exercises to try:
+
+```
+> int x = 4;
+> x = x + 2; // x is now 6
+> x = x + x; // x is now 12
+```
+
+```
+> double converted = 4;
+> converted; // 4.0
+```
