@@ -6,13 +6,20 @@ Within `jshell`,  type in a Java expression or statement, and press `<enter>` to
 
 Some good exercises to try:
 
+Variables accumulate changes to their value.
 ```
 > int x = 4;
 > x = x + 2; // x is now 6
 > x = x + x; // x is now 12
 ```
 
+Types can change because of an assignment.
 ```
 > double converted = 4;
 > converted; // 4.0
+```
+
+Types can change because of an operation.
+```
+> 2 + "2" // "22"
 ```
