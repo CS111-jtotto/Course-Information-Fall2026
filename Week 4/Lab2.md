@@ -50,6 +50,10 @@ Language models, like the autocorrect on your phone, predict statistically likel
 * **Method Signature:**
 
 ```java
-public static String generateMarkovText(int[][] transitionMatrix, int seedChar, int outputLength)
+public static String generateMarkovText(double[][] transitionMatrix, int seedChar, int outputLength)
 
 ```
+
+---
+
+Correction 11-16-26: changed `transitionMatrix` in the `generateMarkovText` signature to a 2d array of doubles.
