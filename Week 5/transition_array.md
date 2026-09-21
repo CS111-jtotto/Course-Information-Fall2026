@@ -1,22 +1,13 @@
 ### Week 3: Markov Chain Transition Array
 
-For the project, you will generate text based on statistical probabilities. The oldest and simplest method of predicting text is by looking at the previous character, and consulting a 'transition matrix'.
+For the project, you will generate text based on statistical probabilities. The oldest and simplest method of predicting text is by looking at the previous character, and consulting a 'transition matrix' A[i][j]: the probability of seeing character `j` if the last character was `i`.
 
 ---
 
-Following instructions from lecture 
+Follow instructions during lecture.
 
 ---
 
-1. 
+1. Count the total entries for each row.
 
-
-            int currentChar;
-            while ((currentChar = reader.read()) != -1) {
-                // Filter to ensure characters fit within the standard ASCII range
-                if (prevChar >= 0 && prevChar < SIZE && currentChar >= 0 && currentChar < SIZE) {
-                    transitionCounts[prevChar][currentChar]++;
-                    totalTransitions++;
-                }
-                prevChar = currentChar;
-            }
+2. Use a nested for loop to convert your int[][] of counts to a double[][] of probabilities, such that each row sums to 1.
