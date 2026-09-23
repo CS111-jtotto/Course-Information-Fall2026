@@ -14,7 +14,7 @@ public class AsciiReader {
             // Create a char[] long enough to hold the entire 1.2MB file
             char[] buffer = new char[(int) fileSize];
 
-            // Read the entire file into the char array in one pass
+            // Try-with-resource block closes the FileReader once we're done
             try (FileReader reader = new FileReader(filePath)) {
                 int charsRead = reader.read(buffer);
                 System.out.println("Loaded " + charsRead + " characters into the char[].");
