@@ -28,5 +28,5 @@ public class PrimeSieve {
 				}
     		}	
 		return isPrime;
-		}
+	}
 }
