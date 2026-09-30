@@ -19,7 +19,7 @@ Here are 10 Java exercises showcasing assignment statements across int, double, 
 Here are Java exercises designed to test your understanding of branching (if, else if, else) control flow. They incorporate int, double, boolean, and String data types along with their expected output values.
 
 ### **Door access**
-
+```
 int age \= 20;  
 boolean hasPermission \= true;  
 String entry \= "Denied";
@@ -29,12 +29,13 @@ if (age \>= 18\) {
         entry \= "Granted";  
     }  
 }  
+```
 **value of \`entry\`:** 
 
 type of \`entry\`:
 
 ### **Thermometer**
-
+```
 double temperature \= 98.6;  
 String status;
 
@@ -45,11 +46,12 @@ if (temperature \> 100.4) {
 } else {  
     status \= "Low";  
 }  
+```
 **value of \`status\`:**  
 type of \`status\`:
 
 ### **Safeway**
-
+```
 boolean isMember \= true;  
 boolean hasCoupon \= false;  
 double discount;
@@ -63,13 +65,12 @@ if (isMember) {
 } else {  
     discount \= 0.0;  
 }
-
+```
 **value of \`discount\`:**   
 type of \`discount\`:
 
 ### **ATM**
-
-Java  
+```
 double accountBalance \= 45.50;  
 double withdrawal \= 50.00;  
 boolean transactionSuccess;
@@ -79,12 +80,12 @@ if (accountBalance \>= withdrawal) {
 } else {  
     transactionSuccess \= false;  
 }
-
+```
 **value of \`transactionSuccess\`:**   
 type of \`transactionSuccess\`:
 
 ### **Password**
-
+```
 String password \= "secure";  
 int strengthScore;
 
@@ -95,18 +96,17 @@ if (password.length() \> 8\) {
 } else {  
     strengthScore \= 1;  
 }
-
+```
 **value of \`strengthScore\`:** 
 
 type of \`strengthScore\`: 
 
 ### **Remainder**
-
-Java  
+```
 int number \= 14;  
 boolean isEven;  
 isEven \= number % 2;
-
+```
 **value of \`isEven\`:** 
 
 type of \`isEven\`: 
@@ -116,47 +116,50 @@ type of \`isEven\`:
 Here are **Java loop exercises** using primitive data types. Each exercise includes the expected output value of the designated output variable.
 
 ### **Summation**
-
+```
 int sum \= 0;  
 for (int i \= 1; i \<= 4; i++) {  
     sum \+= i;  
 }
-
+```
 * **Output Variable:** sum
 
 * **Expected Value:**
 
 ### **Concatenation**
-
+```
 String result \= "";  
 for (int i \= 3; i \>= 1; i \= i \- 1\) {  
     result \+= i \+ " ";  
 }  
 result \+= " Go\!";
+```
 
 * **Output Variable:** result
 
 * **Expected Value:**
 
 ### **Self-reference**
-
+```
 String text \= "na";  
 while (text.length() \< 8\) {  
     text \+= text;  
-}
+\}
+```
 
 * **Output Variable:** text
 
 * **Expected Value:**
 
 ### **Nested Loop Counter (for loop)**
-
+```
 int counter \= 0;  
 for (int i \= 0; i \< 2; i++) {  
     for (int j \= 0; j \< 3; j++) {  
         counter++;  
     }  
-}
+\}
+```
 
 * **Output Variable:** counter
 
@@ -211,17 +214,18 @@ Here are Java exercises focused on writing and evaluating boolean expressions us
 Here are **10 Java loop exercises** using int\[\], double\[\], boolean\[\], and char\[\] arrays with both for and while control flows, along with their expected output values.
 
 ### **1\. int\[\] with for Loop (Array Sum)**
-
+```
 int\[\] arr \= {2, 4, 6, 8};  
 int sum \= 0;  
 for (int i \= 0; i \< arr.length; i++) {  
     sum \+= arr\[i\];  
-}
+\}
+```
 
 * **Output Variable (sum):** 
 
 ### **2\. int\[\] with while Loop (Even Number Count)**
-
+```
 int\[\] arr \= {1, 2, 3, 4, 5};  
 int count \= 0;  
 int i \= 0;  
@@ -230,36 +234,39 @@ while (i \< arr.length) {
         count++;  
     }  
     i++;  
-}
+\}
+```
 
 * **Output Variable (count):** 
 
 ### **3\. double\[\] with for Loop (Maximum Value)**
-
+```
 double\[\] arr \= {1.5, 3.2, 2.8, 0.5};  
 double max \= arr\[0\];  
 for (int i \= 1; i \< arr.length; i++) {  
     if (arr\[i\] \> max) {  
         max \= arr\[i\];  
     }  
-}
+\}
+```
 
 * **Output Variable (max):** 
 
 ### **5\. boolean\[\] with for Loop (True Value Count)**
-
+```
 boolean\[\] flags \= {true, false, true, true};  
 int trueCount \= 0;  
 for (int i \= 0; i \< flags.length; i++) {  
     if (flags\[i\]) {  
         trueCount++;  
     }  
-}
+\}
+```
 
 * **Output Variable (trueCount):** 
 
 ### **6\. boolean\[\] with while Loop (First False Index Search)**
-
+```
 boolean\[\] flags \= {true, true, false, true};  
 int idx \= \-1;  
 int i \= 0;  
@@ -269,24 +276,26 @@ while (i \< flags.length) {
         break;  
     }  
     i++;  
-}
+\}
+```
 
 * **Output Variable (idx):** 
 
 ### **7\. char\[\] with for Loop (Character Frequency)**
-
+```
 char\[\] letters \= {'a', 'b', 'a', 'c', 'a'};  
 int countA \= 0;  
 for (int i \= 0; i \< letters.length; i++) {  
     if (letters\[i\] \== 'a') {  
         countA++;  
     }  
-}
+\}
+```
 
 * **Output Variable (countA):** 
 
 ### **9\. char\[\] with while Loop (Reverse Vowel Counter)**
-
+```
 char\[\] chars \= {'p', 'e', 'a', 'r'};  
 int vowelCount \= 0;  
 int i \= chars.length \- 1;  
@@ -296,7 +305,8 @@ while (i \>= 0\) {
         vowelCount++;  
     }  
     i--;  
-}
+\}
+```
 
 * **Output Variable (vowelCount):** 
 
