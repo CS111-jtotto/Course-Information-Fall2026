@@ -12,7 +12,7 @@ Here are 10 Java exercises showcasing assignment statements across int, double, 
 | int | int result = 17 % 5; |  | The modulus operator returns the remainder of $17/\ 5$, an integer between 0 and 4\. |
 | double | double result = 10.0; result += 4.5; |  | Compound assignment adds 4.5 to the current value. |
 | String | String result = "Score: " + 21; |  | The integer is automatically converted and concatenated. |
-| int | char input = 'a';int result = (int) input;  |  | ASCII coded characters have integer values between 0 \- 255:[https://www.asciitable.com/](https://www.asciitable.com/) |
+| int | char input = 'a';int result = (int) input;  |  | ASCII coded characters have integer values between 0 - 255:[https://www.asciitable.com/](https://www.asciitable.com/) |
 
 **2\. Branching control flow**
 
@@ -129,7 +129,7 @@ for (int i = 1; i <= 4; i++) {
 ### **Concatenation**
 ```
 String result = "";  
-for (int i = 3; i >= 1; i = i \- 1\) {  
+for (int i = 3; i >= 1; i = i - 1\) {  
     result += i + " ";  
 }  
 result += " Go!";
@@ -268,7 +268,7 @@ for (int i = 0; i < flags.length; i++) {
 ### **6\. boolean[] with while Loop (First False Index Search)**
 ```
 boolean[] flags = {true, true, false, true};  
-int idx = \-1;  
+int idx = -1;  
 int i = 0;  
 while (i < flags.length) {  
     if (!flags[i]) {  
@@ -298,7 +298,7 @@ for (int i = 0; i < letters.length; i++) {
 ```
 char[] chars = {'p', 'e', 'a', 'r'};  
 int vowelCount = 0;  
-int i = chars.length \- 1;  
+int i = chars.length - 1;  
 while (i >= 0\) {  
     char c = chars[i];  
     if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {  
@@ -340,7 +340,7 @@ As a further exercise, write the method body and test your implementation.
 
 * **Expected Return Value:**
 
-* hint: for implementation, you have two options \- use String.reverse and String.equals; or walk the String.toCharArray with two iterators, int i = 0, j = word.length \- 1;
+* hint: for implementation, you have two options - use String.reverse and String.equals; or walk the String.toCharArray with two iterators, int i = 0, j = word.length - 1;
 
 ### **truncating**
 
@@ -380,7 +380,7 @@ As a further exercise, write the method body and test your implementation.
 
 * **Method Signature:** public boolean hasNegative(int[] numbers)
 
-* **Example Call:** hasNegative(new int[] {5, 0, \-3, 8});
+* **Example Call:** hasNegative(new int[] {5, 0, -3, 8});
 
 * **Expected Return Value:** 
 
