@@ -20,3 +20,23 @@ Each additional filter brush operates on top of previous filter brushes, includi
 
 Optionally, you may choose to submit your Project 2 brush for in-class demonstration during Week 14. I will combine all of the submitted brushes into a single creative painting application, which we will mess around with in class. 
 
+---
+
+Update (Wed, Week 11):
+
+Your custom brush must contain a `render()`, `display()`, or similar method. If it is a filter brush, include an `apply()` function. It does not need to be a subclass.
+
+Your Project 2 submission will contain at least two source files (a main sketch titled `Project2` or similar, and your class titled `CustomBrush` or similar), and answers to the following reflection prompts; any number of sentences is fine.
+
+
+1. What shapes did you intend to create with your brush?
+
+
+2. What brush behavior are you most satisfied with, after playing with your implementation?
+
+
+3. How did you change the brush implementation based on its behavior? Did its behavior differ from your original intent?
+
+
+4. In what ways does your brush feel limited? What would you add in the future to make it more exciting or flexible?
+

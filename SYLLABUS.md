@@ -3,7 +3,8 @@
 CS 111-02 - Foundations of Program Design\
 Instructor: Dr. Jasmine Tan Otto (she/her) <jtotto@usfca.edu>\
 TA: Paria Akhtarmoghaddam <pakhtarmoghaddam@dons.usfca.edu>\
-TA: Enzo Queirolo <ejqueirolo@dons.usfca.edu>
+TA: Enzo Queirolo <ejqueirolo@dons.usfca.edu>\
+TA: Omyaa Balaji <sbalaji@dons.usfca.edu>\
 
 I'll respond to e-mail and Slack in 24 hours, except over the weekend.\
 If you message me on Canvas or on Discord, no guarantees.
@@ -14,11 +15,15 @@ Wednesdays.
 The final exam will be held 3pm on Fri, Dec 11th.\
 We will not meet on Labor Day (Sep 7th) or Fall Break (Oct 19th).
 
+Preferred course text: Java Programming I, University of Helsinki  
+<https://java-programming.mooc.fi/>\
+(We will cover parts 1 - 7.)
+
 Text #1: Head First Java, 3rd Edition, by Kathy Sierra, Bert Bates, and
 Trisha Gee
 <https://learning.oreilly.com/library/view/head-first-java/9781492091646/>\
 Text #2: Learning Processing by Daniel Shiffman, as The Coding Train
-<https://thecodingtrain.com/tracks/learning-processing>
+<https://thecodingtrain.com/tracks/learning-processing>\
 
 You can find the 1st text through the library, and to the 2nd through
 YouTube. Please let me know if you have any difficulty accessing these
@@ -33,7 +38,10 @@ Mondays 3:30pm - 4:30pm, HR 407B. Wednesdays 11am - 12noon, HR 407B.
 Thursdays 11:30 - 1:30pm, HR 411/413 (Tutoring center).
 
 **Enzo** <ejqueirolo@dons.usfca.edu>\
-By appointment / email.
+During class periods on Mondays (first half) and Wednesdays.
+
+**Omyaa** <osbalaji@dons.usfca.edu>\
+Fridays 1pm - 2:30pm, HR 411/413 (Tutoring center).
 
 # Resources
 
@@ -272,3 +280,10 @@ complexity.\
 **Wed:** Final review.
 
 Final Exam: Friday, Dec 11th, 3 - 5pm.
+
+---
+
+Update (Wed, Week 11):
+- Add Omyaa's office hours.\
+- Add java-programming MOOC as reference text.\
+- TODO: Drop fractals, collection classes.
